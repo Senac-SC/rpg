@@ -1,8 +1,139 @@
 ion-content {
     background-repeat: no-repeat;
-    background-size: cover;
-    --background: url("../../assets/img/Prancheta1.png");
+    background-size: auto;
+    --background: url("../../assets/img/Frame10.png");
 
 
 }
 
+
+.cardum{
+    position: absolute;
+    width: 87px;
+    height: 146px;
+    left: 125px;
+    top: 123px;
+    
+    background: #C4C4C4;
+    border-radius: 10px;
+   
+  }
+  
+  
+  
+  .carddois{
+    position: absolute;
+  width: 86px;
+  height: 82px;
+  left: 22px;
+  top: 122px;
+  
+  background: #C4C4C4;
+  border-radius: 10px;
+   
+  }
+  
+  
+  .cardtres{
+    position: absolute;
+    width: 86px;
+    height: 132px;
+    left: 22px;
+    top: 222px;
+    
+    background: #C4C4C4;
+    border-radius: 10px;
+   
+  }
+  
+  
+  .cardquatro{
+    position: absolute;
+    width: 86px;
+    height: 72px;
+    left: 126px;
+    top: 284px;
+    
+    background: #C4C4C4;
+    border-radius: 10px;
+   
+  }
+  
+  
+  
+  .cardcinco{
+    position: absolute;
+    width: 95px;
+    height: 163px;
+    left: 232px;
+    top: 193px;
+    
+    background: #C4C4C4;
+    border-radius: 10px;
+   
+  }
+  
+  
+  .cardseis{
+    position: absolute;
+  width: 190px;
+  height: 82px;
+  left: 22px;
+  top: 371px;
+  
+  background: #C4C4C4;
+  border-radius: 10px;
+   
+  }
+  
+  
+  .cardsete{
+    position: absolute;
+    width: 95px;
+    height: 82px;
+    left: 232px;
+    top: 371px;
+    
+    background: #C4C4C4;
+    border-radius: 10px;
+   
+  }
+  
+  .cardoito{
+    position: absolute;
+    width: 83px;
+    height: 124px;
+    left: 22px;
+    top: 470px;
+    
+    background: #C4C4C4;
+    border-radius: 10px;
+   
+  }
+  .cardnove{
+    position: absolute;
+    width: 204px;
+    height: 125px;
+    left: 119px;
+    top: 470px;
+    
+    background: #C4C4C4;
+    border-radius: 10px;
+   
+  }
+  
+  
+
+  .carta{
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    left: 241px;
+    top: 68px;
+  }
+
+  ion-toolbar {
+    --background: transparent;
+    --ion-color-base: transparent !important;
+ }
+ 
