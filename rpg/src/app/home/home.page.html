@@ -1,33 +1,71 @@
 <ion-header>
-  
+  <ion-text color="secondary" class="bemvindo">
+    <h1>Bem vindo </h1>
+  </ion-text>
+
 </ion-header>
 
-<ion-content class="bkg">
-  <form #form="ngForm" (ngSubmit)="login(form)">
-    <ion-grid>
-      <ion-row color="primary" justify-content-center>
-        <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
-         <div class="div_login">
-          <div padding>
-            <ion-item>
-              <ion-input name="email" type="email" placeholder="your@email.com" ngModel required></ion-input>
-            </ion-item>
-            <ion-item>
-              <ion-input name="password" type="password" placeholder="Password" ngModel required></ion-input>
-            </ion-item>
-          </div>
-          <div padding>
-            <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block">Login</ion-button>
-          </div>
-          <hr>
-          <div padding>
-            <ion-button size="large" type="submit" [disabled]="form.invalid" expand="block">Cadastro</ion-button>
-          </div>
-         </div>
-       
-        </ion-col>
-        
+
+<ion-content>
+
+  <ion-card class="cardumum">
+    <ion-card-header>
+
+
+    </ion-card-header>
+
+  </ion-card>
+
+  <ion-card class="cardum">
+    <ion-card-header>
+    </ion-card-header>
+    <div class="controle">
+
+
+      <ion-item>
+        <ion-label class="cor_texto_padrao" position="floating">E-mail</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="cor_texto_padrao" position="floating">Senha</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+    </div>
+
+
+
+
+    <label class="cor_texto_padrao lbl_ou" for="">OU ENTRE COM</label>
+
+
+
+
+    <ion-button expand="block" fill="clear" shape="round">Entrar</ion-button>
+    
+    <ion-grid fixed>
+      <ion-row>
+        <ion-col size="6"><ion-button class="auti" expand="block" fill="clear" shape="round">
+          <label style="color: #4285F4;">G</label>
+          <label style="color: #EA4335;">O</label>
+          <label style="color: #FBBC05;">O</label>
+          <label style="color: #4285F4;">G</label>
+          <label style="color: #34A853;">L</label>
+          <label style="color: #EA4335;">E</label>
+        </ion-button></ion-col>
+        <ion-col size="6"> <ion-button class="auti" expand="block" fill="clear" shape="round">
+          <label style="color: #3b5998;" for="facebook">Facebook</label>
+        </ion-button></ion-col>
       </ion-row>
     </ion-grid>
-  </form>
+    
+
+   
+
+  </ion-card>
+
+
+
+
+
+
 </ion-content>
