@@ -2,9 +2,24 @@
     padding-top: 50%;
 }
 ion-content{
-    background-repeat: no-repeat;
-    background-size:cover;
-    --background: url("../../assets/imgs/Prancheta1.png");
-    
+    --background: rgb(90,15,152);
+    --background: linear-gradient(69deg, rgba(90,15,152,1) 0%, rgba(71,16,80,1) 100%);
 
+}
+ion-item{
+    --background: #ffffff0c;
+    --color: rgba(192, 194, 75, 0.973);
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 10px;
+    border: solid 1px rgb(0, 0, 0);
+}
+ion-button{
+    --background: #062f77;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    border: solid 1px rgb(0, 0, 0);
+}
+.div_login{
+    margin-top: 50%;
 }
