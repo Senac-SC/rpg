@@ -21,6 +21,10 @@ const routes: Routes = [
   {
     path: 'grupinhos',
     loadChildren: () => import('./grupinhos/grupinhos.module').then( m => m.GrupinhosPageModule)
+  },
+  {
+    path: 'chat',
+    loadChildren: () => import('./chat/chat.module').then( m => m.ChatPageModule)
   }
 
 ];
