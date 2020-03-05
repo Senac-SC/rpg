@@ -1,12 +1,20 @@
-<ion-header>
+<ion-content>
+
+
+
+  <ion-button class="btn_register" (click)="onClick()"  expand="" fill="clear" shape="round">
+    Click me
+  </ion-button>
   <ion-text color="secondary" class="bemvindo">
+
     <h1>Bem vindo </h1>
+
   </ion-text>
 
-</ion-header>
 
 
-<ion-content>
+
+
 
   <ion-card class="cardumum">
     <ion-card-header>
@@ -35,31 +43,39 @@
 
 
 
-    <label class="cor_texto_padrao lbl_ou" for="">OU ENTRE COM</label>
 
 
+
+    <div class="lbl">
+      <label class="cor_texto_padrao" for="">OU ENTRE COM</label>
+    </div>
 
 
     <ion-button expand="block" fill="clear" shape="round">Entrar</ion-button>
-    
+
+
     <ion-grid fixed>
       <ion-row>
-        <ion-col size="6"><ion-button class="auti" expand="block" fill="clear" shape="round">
-          <label style="color: #4285F4;">G</label>
-          <label style="color: #EA4335;">O</label>
-          <label style="color: #FBBC05;">O</label>
-          <label style="color: #4285F4;">G</label>
-          <label style="color: #34A853;">L</label>
-          <label style="color: #EA4335;">E</label>
-        </ion-button></ion-col>
-        <ion-col size="6"> <ion-button class="auti" expand="block" fill="clear" shape="round">
-          <label style="color: #3b5998;" for="facebook">Facebook</label>
-        </ion-button></ion-col>
+        <ion-col size="6">
+          <ion-button class="auti" expand="block" fill="clear" shape="round">
+            <label style="color: #4285F4;">G</label>
+            <label style="color: #EA4335;">O</label>
+            <label style="color: #FBBC05;">O</label>
+            <label style="color: #4285F4;">G</label>
+            <label style="color: #34A853;">L</label>
+            <label style="color: #EA4335;">E</label>
+          </ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button class="auti" expand="block" fill="clear" shape="round">
+            <label style="color: #3b5998;" for="facebook">Facebook</label>
+          </ion-button>
+        </ion-col>
       </ion-row>
     </ion-grid>
-    
 
-   
+
+
 
   </ion-card>
 

@@ -9,7 +9,7 @@ ion-content {
   width: 295px;
   height: 341px;
   left: 38px;
-  top: 103px;
+  top: 180px;
 
   background: #2f2933;
   border: 2px solid #ffffff;
@@ -18,7 +18,7 @@ ion-content {
 }
 
 .cardumum {
-  position: absolute;
+  //position: absolute;
   width: 295px;
   height: 335px;
   left: 31px;
@@ -29,7 +29,7 @@ ion-content {
 }
 
 .bemvindo {
-  position: absolute;
+  //position: absolute;
   width: 289px;
   height: 92px;
   left: 41px;
@@ -50,10 +50,18 @@ ion-item {
 .cor_texto_padrao {
   color: var(--ion-color-warning-tint);
 }
-.controle{
-    margin-top: 35px;
-   
+.controle {
+  margin-top: 35px;
 }
-.lbl_ou{
-   margin-top: 70%;
+.lbl {
+  margin-top: 2%;
+ 
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn_register{
+  margin-top:  5%;
 }
