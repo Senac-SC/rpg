@@ -8,8 +8,8 @@ ion-content {
   position: absolute;
   width: 295px;
   height: 341px;
-  left: 38px;
-  top: 180px;
+  left: 8%;
+  top: 19%;
 
   background: #2f2933;
   border: 2px solid #ffffff;
@@ -21,8 +21,8 @@ ion-content {
   //position: absolute;
   width: 295px;
   height: 335px;
-  left: 31px;
-  top: 118px;
+  left: 5%;
+  top: 5%;
 
   background: linear-gradient(180.13deg, #ca5664 0.1%, rgba(255, 255, 255, 0) 75.91%), rgba(210, 86, 100, 0.67);
   border-radius: 10px;
@@ -64,4 +64,5 @@ ion-item {
 }
 .btn_register{
   margin-top:  5%;
+  margin-left: 70%;
 }

@@ -1,0 +1,68 @@
+ion-content {
+    background-repeat: no-repeat;
+    background-size: auto;
+    --background: url("../../assets/imgs/Frame15.png");
+  }
+  
+  .cardum {
+    position: absolute;
+    width: 295px;
+    height: 450px;
+    left: 8%;
+    top: 13%;
+  
+    background: #2f2933;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .cardumum {
+    //position: absolute;
+    width: 295px;
+    height: 460px;
+    left: 5%;
+    top: 5%;
+  
+    background: linear-gradient(180.13deg, #ca5664 0.1%, rgba(255, 255, 255, 0) 75.91%), rgba(210, 86, 100, 0.67);
+    border-radius: 10px;
+  }
+  
+  .bemvindo {
+    //position: absolute;
+    width: 289px;
+    height: 92px;
+    left: 41px;
+    top: 26px;
+  
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--ion-color-warning-tint);
+    //color: #dcc20c;
+  }
+  ion-item {
+    --background: rgba(0, 0, 0, 0);
+  }
+  .cor_texto_padrao {
+    color: var(--ion-color-warning-tint);
+  }
+  .controle {
+    //margin-top: 35px;
+  }
+  .lbl {
+    margin-top: 2%;
+   
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn_register{
+    margin-top:  5%;
+    
+  }

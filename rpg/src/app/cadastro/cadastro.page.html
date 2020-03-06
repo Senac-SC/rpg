@@ -2,15 +2,10 @@
 
 
 
-  <ion-button class="btn_register" (click)="onClick()" href='/cadastro' expand="" fill="clear" >
-    <label class="cor_texto_padrao" for="">Registrar</label>
+  <ion-button class="btn_register" (click)="onClick()" href='/home' expand="" fill="clear" >
+    <label class="cor_texto_padrao" for="">Voltar</label>
   </ion-button>
-  <ion-text color="secondary" class="bemvindo">
-
-    <h1>Bem-vindo </h1>
-
-  </ion-text>
-
+ 
 
 
 
@@ -31,11 +26,25 @@
 
 
       <ion-item>
+        <ion-label class="cor_texto_padrao" position="floating">Nome</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
         <ion-label class="cor_texto_padrao" position="floating">E-mail</ion-label>
         <ion-input></ion-input>
       </ion-item>
       <ion-item>
+        <ion-item>
+          <ion-label class="cor_texto_padrao">Nascimento</ion-label>
+          <ion-datetime display-format="DD.MM.YYYY"></ion-datetime>
+        </ion-item>
+      </ion-item>
+      <ion-item>
         <ion-label class="cor_texto_padrao" position="floating">Senha</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label class="cor_texto_padrao" position="floating">Confirme a senha</ion-label>
         <ion-input></ion-input>
       </ion-item>
     </div>
