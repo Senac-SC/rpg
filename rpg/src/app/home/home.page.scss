@@ -117,9 +117,9 @@ ion-content {
   width: 80%;
   height: 50%;
   left: 8%;
-  top: -49%;
+  //top: -49%;
 
-  background: #2f2933;
+  background:rgba(255, 255, 255, 0);  // #2f2933;
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 10px;
@@ -130,10 +130,10 @@ ion-content {
   width: 80%;
   height: 50%;
   left: 5%;
-  top: 5%;
+  //top: 5%;
 
-  background: linear-gradient(180.13deg, #ca5664 0.1%, rgba(255, 255, 255, 0) 75.91%), rgba(210, 86, 100, 0.67);
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0); //linear-gradient(180.13deg, #ca5664 0.1%, rgba(255, 255, 255, 0) 75.91%), rgba(210, 86, 100, 0.67);
+  border-radius: 12px;
 }
 
 .bemvindo {
